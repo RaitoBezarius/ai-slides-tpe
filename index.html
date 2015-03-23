@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Les Intelligences Artificielles</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Les Intelligences Artificielles">
+		<meta name="author" content="Ryan LAHFA">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -41,335 +41,319 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>The HTML Presentation Framework</h3>
+					<h1>Les Intelligences Artificielles</h1>
+					<h3>Travaux personnels encadrés</h3>
+					<h2>2014 - 2015</h2>
 					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
+						<small>Groupe : Ryan LAHFA, Antoine PIRARD, Cédric BYSZEWSKI</small>
 					</p>
 				</section>
 
-				<section>
-					<h2>Hello There</h2>
-					<p>
-						reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
-					</p>
-				</section>
-
-				<!-- Example of nested vertical slides -->
 				<section>
 					<section>
-						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
-						<p>Use the <em>Space</em> key to navigate through all slides.</p>
-						<br>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+						<h2>C'est quoi une Intelligence Artificielle ?</h2>
+						<p class="fragment"> En 2015, notre quotidien est remplis d'intelligences artificielles <span class="fragment roll-in">(abregé IA).</span></p>
+						<p class="fragment roll-in">Certaines contribuent à rendre notre quotidien plus simple.</p>
+						<p class="fragment">D'autres <span class="fragment highlight-blue">créent notre avenir</span>.</p>
+						<p class="fragment">Ou préparent <span class="fragment highlight-red">notre destruction</span>?</p>
 					</section>
 					<section>
-						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+						<h2>Dans la littérature</h2>
+                        <img class="fragment" src="lib/img/i_robot.png" alt="Couverture de I, Robot" />
+                        <aside class="notes">
+                            Un robot ne peut porter atteinte à un être humain, ni, en restant passif, permettre qu'un être humain soit exposé au danger. <br />
+                            Un robot doit obéir aux ordres qui lui sont donnés par un être humain, sauf si de tels ordres entrent en conflit avec la Première loi. <br />
+                            Un robot doit protéger son existence tant que cette protection n'entre pas en conflit avec la Première ou la Deuxième loi.
+                        </aside>
 					</section>
 					<section>
-						<h2>Basement Level 2</h2>
-						<p>That's it, time to go back up.</p>
-						<br>
-						<a href="#/2">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slides.com" target="_blank">http://slides.com</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
-
-				<section>
-					<h2>Touch Optimized</h2>
-					<p>
-						Presentations look great on touch devices, like mobile phones and tablets. Simply swipe through your slides.
-					</p>
-				</section>
-
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
-
-						Write content using inline or external Markdown.
-						Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-						```
-						<section data-markdown>
-						  ## Markdown support
-
-						  Write content using inline or external Markdown.
-						  Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
-
-				<section>
-					<section id="fragments">
-						<h2>Fragments</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<p><span class="fragment">... a</span> <span class="fragment">fragmented</span> <span class="fragment">slide.</span></p>
-
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
+						<h2>Dans le cinéma</h2>
+						<img class="fragment" src="lib/img/terminator.jpg" alt="Affiche de Terminator" />
 					</section>
 					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's different types of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
+						<h2>Dans la musique</h2>
+						<img class="fragment" src="lib/img/miku_hatsune.jpg" alt="Miku Hatsune, une chanteuse robotique" />
 					</section>
-				</section>
+					<section>
+						<h2>Dans la vie réelle</h2>
+						<img class="fragment" src="lib/img/google-now.jpg" alt="Google Now" />
+					</section>
+					<section>
+						<h2>Pour les développeurs</h2>
+						<pre><code>function searchPath(currentNode, targetNode) {
+	if (currentNode == targetNode) {
+		return;
+	}
+	pathFrom(currentNode).forEach(function (path) {
+		return searchPath(path, targetNode);
+	});
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=slide#/transitions">Slide</a> -
-						<a href="?transition=convex#/transitions">Convex</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a>
-					</p>
+	return null;
+}					</code></pre>
 				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						reveal.js comes with a few themes built in: <br>
-						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
-						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
-					</p>
-				</section>
+			</section>
 
 				<section>
-					<section data-background="#dddddd">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#dddddd"</code> on a slide to change the background color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="navigate-down">
-							<img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/image-placeholder.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Tiled Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-					<section data-background-video="https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.mp4,https://s3.amazonaws.com/static.slid.es/site/homepage/v1/homepage-video-editor.webm" data-background-color="#000000">
-						<div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
-							<h2>Video Backgrounds</h2>
-							<pre><code style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
-						</div>
-					</section>
-				</section>
-
-				<section data-transition="slide" data-background="#4d7e65" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						Different background transitions are available via the backgroundTransition option. This one's called "zoom".
-					</p>
-					<pre><code>Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
-				</section>
-
-				<section data-transition="slide" data-background="#b5533c" data-background-transition="zoom">
-					<h2>Background Transitions</h2>
-					<p>
-						You can override background transitions per-slide.
-					</p>
-					<pre><code style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
-  }
-}
-					</code></pre>
-					<p>Code syntax highlighting courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-
-				<section>
-					<h2>Marvelous List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Fantastic Ordered List</h2>
+					<h3>Comment résoudre les problèmes du quotidien à l'aide des IA?</h3>
 					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
+						<li class="fragment roll-in">Un concours d'intelligence artificielle : Vindinium</li>
+						<li class="fragment roll-in">Une IA pour assister la lecture</li>
+						<li class="fragment roll-in">Une IA pour aider les déficients visuels</li>
 					</ol>
 				</section>
 
 				<section>
-					<h2>Tabular Tables</h2>
-					<table>
-						<thead>
-							<tr>
-								<th>Item</th>
-								<th>Value</th>
-								<th>Quantity</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Apples</td>
-								<td>$1</td>
-								<td>7</td>
-							<tr>
-							<tr>
-								<td>Lemonade</td>
-								<td>$2</td>
-								<td>18</td>
-							<tr>
-							<tr>
-								<td>Bread</td>
-								<td>$3</td>
-								<td>2</td>
-							<tr>
-						</tbody>
-					</table>
+					<section>
+						<h2>Un concours d'intelligence artificielle</h2>
+						<h4 class="fragment roll-in">Comment créer une intelligence artificielle?</h4>
+					</section>
+					<section>
+						<h2>Le concours d'IA : Vindinium</h2>
+						<p class="fragment">
+							Vindinium est un concours d'intelligence artificielle ouvert à tous.
+						</p>
+
+						<p class="fragment">
+							Le concours se présente sous forme d'un jeu avec des règles où tous les joueurs doivent faire affronter leurs bots (IA) contre celles des autres joueurs lors de matchs.
+							<img src="lib/img/player_vindinium.png" class="fragment roll-in" alt="Un joueur de Vindinium" style="vertical-align: middle; border: 0;" />
+							<img src="lib/img/player_vindinium_2.png" class="fragment roll-in" alt="Un joueur de Vindinium" style="vertical-align: middle; border: 0;" />
+						</p>
+
+						<div class="fragment fade-in">
+							Naturellement, l'IA <span class="fragment highlight-red">la plus intelligente</span> en sortira vainqueur.
+                        </div>
+
+                        <video width="640" height="350" controls class="fragment" src="lib/media/combat_vindinium_demo.webm">
+                        </video>
+					</section>
+					<section>
+						<h2>La naissance du bot Arch</h2>
+						<p class="fragment">
+							Arch est le nom de notre bot dans ce concours, <span class="fragment highlight-blue">écrit en Python</span>.
+						</p>
+						<p class="fragment">
+							Nous avons appris tout au long de ce concours :
+						</p>
+						<ul>
+							<li class="fragment roll-in">Comment une intelligence artificielle est construite</li>
+                            <li class="fragment roll-in">Les algorithmes qu'on utilise lorsqu'on crée un véritable programme</li>
+                            <li class="fragment roll-in">Les méthodes ou les modèles utilisés quand on code des intelligences artificielles</li>
+						</ul>
+					</section>
+					<section>
+						<h2>L'apprentissage humain</h2>
+						<p class="fragment">
+							Apprendre pour les êtres humains se fait de manière intuitive, toutefois, on peut en tirer un schéma.
+						</p>
+						<img class="fragment" src="lib/img/ApprentissageHumains.png" alt="Schéma de l'apprentissage chez les êtres humains" />
+					</section>
+					<section>
+						<h2>Le voyageur de commerce</h2>
+						<p class="fragment">
+							C'est un problème typique en algorithmie qui demeure encore difficile à résoudre en temps raisonnable.
+						</p>
+						<p class="fragment roll-in">
+							C'est le problème que Vindinium nous propose d'approcher à travers son concours présenté de manière ludique.
+						</p>
+						<img class="fragment" src="lib/img/voyageur-de-commerce.jpg" alt="Schéma du voyageur de commerce" />
+					</section>
+					<section style="text-align: left;">
+						<h2>Notre approche</h2>
+						<p class="fragment">
+                            Nous avons fini par approcher le problème <span class="fragment highlight-red">en utilisant un algorithme génétique</span> où
+                            notre personnage effectuait n'importe quel décision, et chaque décision était mémorisé, puis nous regardions le résultat de cette décision.
+                            </p>
+                        <p class="fragment">
+                            C'est à dire, à chaque fois que cette décision nous menait <span class="fragment highlight-red">à la mort, ou à la perte d'or (pénalité)</span>, nous la considérions <span class="fragment highlight-red">mauvaise</span>. <br />
+                            Toutefois, à chaque fois qu'elle était <span class="fragment highlight-blue">bonne</span>, on la favorisait lors de nos <span class="fragment highlight-blue">prochaines décisions</span>.
+                        </p>
+                        <p class="fragment">
+                            Certes, malgré notre stratégie, nous n'avons pas pu vaincre d'autres intelligences artificielles (qui ont sûrement plus d'entraînement que les nôtres).
+                            Mais, ce fut amusant tout de même! Nous avons réussi à gagner quelques matchs.
+                        </p>
+					</section>
 				</section>
 
 				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
+					<section>
+						<h2>Une intelligence artificielle pour assister la lecture</h2>
+						<h4 class="fragment roll-in">Comment aider les personnes qui ont des problèmes de lecture?</h4>
+					</section>
+					<section>
+						<h2>Faire lire du texte à une intelligence artificielle</h2>
+						<p class="fragment">Lire pour les IA est un problème complexe,</p>
+						<p class="fragment">
+							En effet il demande à la machine d'être capable :
+						</p>
+						<ul class="fragment">
+							<li class="fragment highlight-red">Séparer les lettres</li>
+							<li class="fragment highlight-red">Reconnaître leur forme</li>
+							<li class="fragment highlight-red">Trouver les espaces</li>
+							<li class="fragment highlight-red">Analyser les symboles</li>
+						</ul>
+						<p class="fragment">Les programmes qui en sont capables sont appelés <span class="fragment highlight-red">OCR</span>.</p>
+					</section>
+					<section>
+						<h2>Les OCR</h2>
+						<p>Un OCR (Optical Character Recognition) est un moteur capable de transformer une image qui contient du texte en un véritable fichier texte.</p>
+						<img class="fragment" src="lib/img/ocr_result.jpg" alt="Résultat d'un OCR" />
+					</section>
+					<section>
+						<h2>Des exemples de moteurs OCR</h2>
+						<p class="fragment">
+							Tesseract est un moteur d'OCR developpé par les laboratoires d'HP entre 1985 et 1995.</p>
+						<p class="fragment">
+							Aujourd'hui, il est developpé chez Google depuis 2006. <br />
+							Il est disponible en licence Apache 2.0 (open-source)
+						</p>
+						<p class="fragment">
+							Il s'agit l'un des meilleurs moteurs d'OCR dans le monde, beaucoup de produits l'utilisent en interne.
+						</p>
+					</section>
+					<section>
+						<h2>Comment ça marche?</h2>
+						<p class="fragment">
+							La plupart du temps, un moteur d'OCR emploie un système d'apprentissage par <span class="fragment highlight-red">entraînement</span>.
+						</p>
+						<p class="fragment">
+							Ceci permet d'améliorer la reconnaissance de caractères de l'OCR (que ce soit <span class="fragment highlight-red">manuscrit</span>, ou <span class="fragment highlight-red">imprimé</span>).
+						</p>
+						<img src="lib/img/how_ocr_works.gif" class="fragment" alt="Comment un OCR fonctionne ?" />
+					</section>
+					<section>
+						<h2>Les réseaux de neurones</h2>
+						<p class="fragment">
+							Les réseaux de neurones est un modèle de calcul dont le fonctionnement est proche du fonctionnement <span class="fragment highlight-red">biologique des neurones</span>.
+						</p>
+						<img class="fragment roll-in" src="lib/img/réseaux_de_neurones.png" alt="Réseaux de neurones - Schéma" style="vertical-align: middle; border: 0; background-color: white;" />
+					</section>
+					<section style="text-align: left;">
+						<h2>Notre approche</h2>
+						<p class="fragment">
+                            Nous avons essayé à l'aide d'une caméra de réaliser une reconnaissance optique (presque <span class="fragment highlight-red">temps réel</span>) sur les images de cette caméra.
+                        </p>
+                        <p class="fragment">
+                            Le prototype a de bons résultats sur <span class="fragment highlight-red">les textes imprimés</span>, cependant, il est incapable de lire du manuscrit (pour des raisons de complexité).
+                        </p>
+                        <p class="fragment">
+                            Le texte, <em>lu par l'OCR</em> est
+                            <span class="fragment">ensuite lu par un synthétiseur vocal.</span>
+                            <span class="fragment">
+                                Idéalement, cette intelligence artificielle devrait pouvoir fournir <span class="fragment highlight-blue">une accessibilité amélioré</span> aux personnes à <span class="fragment highlight-red">faible acuité visuelle</span>.
+                            </span>
+                        </p>
+					</section>
 				</section>
 
 				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
+					<section>
+						<h2>Une intelligence artificielle pour les déficients visuels</h2>
+						<h4 class="fragment roll-in">Comment aider efficacement des personnes atteintes de daltonisme à percevoir le monde comme les autres?</h4>
+					</section>
+					<section>
+                        <h2>Le daltonisme</h2>
+                        <p class="fragment">
+                            Le daltonisme est une anomalie qui empêche de percevoir <span class="fragment highlight-red">certaines couleurs</span>.
+                        </p>
+                        <p class="fragment">
+                            Cette anomalie s'explique par <span class="fragment highlight-red">l'absence</span> d'un ou plusieurs des trois cônes responsables de la perception des couleurs.
+                        </p>
+					</section>
+					<section>
+                        <h2>Quelles couleurs perçoivent les daltoniens?</h2>
+                        <!-- Mettre les images de vision d'Antoine -->
+                        <img alt="Types de daltonismes" class="fragment roll-in" src="lib/img/color-blindness-types.jpg">
+					</section>
+					<section>
+						<h2>Une vision &ldquo; daltonienne &rdquo;</h2>
+						<video controls src="lib/media/colorblind_simulation.webm">
+						</video>
+					</section>
+					<section>
+                        <h2>Comment savoir si quelqu'un est atteint de daltonisme?</h2>
+                        <p class="fragment">En réalité, tous les daltoniens ont des perceptions <span class="fragment highlight-red">uniques</span>.</p>
+                        <p class="fragment">Toutefois, on peut classer les daltoniens en fonction du cône qui leur est déficient : </p>
+                        <ul>
+                            <li class="fragment">Protanope</li>
+                            <li class="fragment">Deutéranope</li>
+                            <li class="fragment">Tritanope</li>
+                        </ul>
+                        <aside class="notes">
+                            Protanope = pas de cônes de couleur rouge <br />
+                            Deutéranope = pas de cônes de couleur verte <br />
+                            Tritanopie = pas de cônes de couleur bleu
+                        </aside>
+					</section>
+					<section>
+                        <h2>Le test d'Ishihara</h2>
+                        <p class="fragment">Ce test permet à l'aide d'images de dépister les anomalies visuels chez une personne.</p>
+                        <img class="fragment" style="border: 0; vertical-align: middle;" src="lib/img/ishihara_57.png" alt="Test d'Ishihara 1" />
+                        <img class="fragment" style="border: 0; vertical-align: middle;" src="lib/img/ishihara_42.gif" alt="Test d'Ishihara 42" />
+                        <img class="fragment" style="border: 0; vertical-align: middle;" src="lib/img/ishihara_5.gif" alt="Test d'Ishihara 5" />
+					</section>
+					<section style="text-align: left;">
+                        <h2>Notre approche</h2>
+                        <p class="fragment">
+                            Notre but était de faire une extension de navigateur capable d'appliquer une filtre sur les sites Internet en fonction de la déficience de l'utilisateur.
+                        </p>
+                        <p class="fragment">
+                            Toutefois, par manque de temps, nous n'avons pas pu implémenter <span class="fragment highlight-red">les filtres correcteurs</span> (qui étaient des matrices de couleurs).
+                        </p>
+                        <p class="fragment">
+                        Idéalement, nous avons conçu un prototype capable à l'aide de quelques questions de <span class="fragment highlight-blue">trouver la déficience visuelle</span> de quelqu'un en se basant sur le test d'Ishihara.
+                        </p>
+					</section>
+					<section>
+						<h2>Notre réalisation finale</h2>
+					</section>
 				</section>
 
 				<section>
-					<h2>Speaker View</h2>
-					<p>There's a <a href="https://github.com/hakimel/reveal.js#speaker-notes">speaker view</a>. It includes a timer, preview of the upcoming slide as well as your speaker notes.</p>
-					<p>Press the <em>S</em> key to try it out.</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
-
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, here's an example:</p>
-					<iframe src="//www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the page background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>State Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take distracting slides off the screen.
-					</p>
-				</section>
-
-				<section>
-					<h2>Much more</h2>
-					<ul>
-						<li>Right-to-left support</li>
-						<li><a href="https://github.com/hakimel/reveal.js#api">Extensive JavaScript API</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#auto-sliding">Auto-progression</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#parallax-background">Parallax backgrounds</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js#keyboard-bindings">Custom keyboard bindings</a></li>
-					</ul>
-				</section>
-
-				<section style="text-align: left;">
-					<h1>THE END</h1>
-					<p>
-						- <a href="http://slides.com">Try the online editor</a> <br>
-						- <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
-					</p>
+					<section style="text-align: left;">
+						<h2>Le mot de la fin</h2>
+						<p class="fragment">
+                        Les intelligences artificielles ont un vaste champ d'application,
+                            <span class="fragment">
+                                et leur nature même nous permettent d'accéder à des interactions, autrefois <span class="fragment highlight-red">inaccessibles</span>.
+                            </span>
+                        </p>
+                        <p class="fragment">
+                            Il est clair que si leur utilisation se fait à <span class="fragment highlight-red">bon escient</span>,
+                            <span class="fragment">
+                                leur développement pourrait <span class="fragment highlight-blue">bouleverser</span> notre monde
+                                <span class="fragment">
+                                    et nous <span class="fragment highlight-blue">propulser</span> ainsi dans une nouvelle ère <span class="fragment highlight-blue">moderne</span> digne des films de science-fiction.
+                                </span>
+                            </span>
+                        </p>
+                        <p class="fragment">
+                        Mais il faut faire attention
+                            <span class="fragment">
+                                à ne pas plonger dans la <span class="fragment highlight-red">dystopie</span>.
+                            </span>
+						</p>
+					</section>
+                    <section>
+						<h1 class="fragment highlight-blue">Questions?</h1>
+					</section>
+                    <section>
+						<h2>Remerciements</h2>
+                        <p class="fragment">
+                            Merci à toutes les sources que nous avons utilisé, <span class="fragment">sans quoi nous n'aurions pas eu grand chose à dire.</span>
+                        </p>
+                        <p class="fragment">
+                            Merci à M. Picard et Mme. Mignondo, <span class="fragment">nos professeurs de TPE, </span><span class="fragment">qui nous ont permis d'entreprendre et réussir ce TPE dans les meilleures conditions</span>
+                        </p>
+                        <p class="fragment">
+                            Merci aux équipes derrière <span class="fragment">Python,</span> <span class="fragment">JavaScript,</span> <span class="fragment">Reveal.js, </span> <span class="fragment">Vindinium.</span> <br />
+                            <span class="fragment">Sans qui, notre TPE serait complètement abstrait, et sans intérêt.</span>
+                        </p>
+                        <p class="fragment">
+                            <span class="fragment highlight-red">
+                                Et surtout, merci aux examinateurs, qui assistent à la présentation de nos travaux.
+                            </span>
+                        </p>
+					</section>
 				</section>
 
 			</div>
